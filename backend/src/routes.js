@@ -1,6 +1,9 @@
 const express = require("express");
 const routes = express.Router();
 
-routes.get("/", (request, response) => response.send("Funcional!!"));
+const OngController = require("./controllers/OngController");
+
+routes.get("/ongs", OngController.index);
+routes.post("/ongs", OngController.create);
 
 module.exports = routes;
