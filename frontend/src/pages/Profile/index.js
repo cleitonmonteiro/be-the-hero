@@ -14,7 +14,7 @@ export default function Profile() {
         <span>Bem vinda, APAD!</span>
 
         <Link to="/incidents/new" className="button">
-          Cadatrar novo caso.
+          Cadastrar novo caso.
         </Link>
         <button type="button">
           <FiPower size={18} color="#E02041" />

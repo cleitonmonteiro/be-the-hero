@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
 * {
   margin: 0;
@@ -13,7 +13,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font: 400 18px Roboto, sans-serif;
 }
 
@@ -30,13 +32,25 @@ form input {
   padding: 0 24px;
 }
 
+form textarea {
+  width: 100%;
+  min-height: 140px;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 24px;
+  resize: vertical;
+}
+
 .button {
   width: 100%;
   height: 60px;
   background: #e02041;
   border: 0;
   border-radius: 8px;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   margin-top: 16px;
   display: inline-block;
@@ -50,7 +64,6 @@ form input {
 .button:hover {
   filter: brightness(90%);
 }
-
 
 .back-link {
   display: flex;
@@ -69,4 +82,53 @@ form input {
 
 .back-link:hover {
   opacity: 0.8;
+}
+
+.default-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.default-container .content {
+  width: 100%;
+  padding: 96px;
+  background: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.default-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.default-container .content section h1 {
+  margin: 64px 0 32px;
+  font-size: 32px;
+}
+
+.default-container .content section p {
+  font-size: 18px;
+  color: #737380;
+  line-height: 32px;
+}
+
+.default-container .content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.default-container .content form input,
+textarea {
+  margin-top: 8px;
 }
