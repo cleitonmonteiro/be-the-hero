@@ -1,11 +1,10 @@
 import React from "react";
-import { View, FlatList, Image, Text } from "react-native";
+import { View, FlatList, Image, Text, TouchableOpacity } from "react-native";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 import logoImg from "../../assets/logo.png";
 import styles from "./styles";
-import { TouchableOpacity } from "react-native-gesture-handler";
 
 export default function Inciddents() {
   const navigation = useNavigation();
