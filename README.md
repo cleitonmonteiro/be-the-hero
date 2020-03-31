@@ -12,6 +12,7 @@ A aplicação tem como objetivo conectar ONGs a pessoas que queiram ajudar em se
 
 ## Aplicação mobile desenvolvida em [React Native](https://reactnative.dev/) usando o [Expo](https://expo.io/).
 <p align="center">
+  <img src="./screenshots/mobile/splash.png" height="420" alt="Splash."/>
   <img src="./screenshots/mobile/incidents_list.png" height="420" alt="Page Home."/>
   <img src="./screenshots/mobile/incident_detail.png" height="420" alt="Page ONG Register."/>
 </p>
